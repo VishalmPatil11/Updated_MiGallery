@@ -1,0 +1,119 @@
+body{
+    background-color:grey;
+    }
+
+.color{
+    background-color:grey;
+    }
+
+.images{
+    /* background-color: rgba(0, 0, 0, 0.761); */
+
+    display: 
+grid;
+
+    grid-template-columns: 
+repeat(auto-fit, 
+minmax(350px,auto));
+
+    grid-gap: 
+50px;
+
+    margin: 
+50px auto;
+
+    max-width: 
+1240px;
+
+    padding: 
+20px;
+
+}
+
+
+.image{
+    background-color: whitesmoke;
+
+    padding: 
+10px;
+
+    box-shadow: 
+0 5px 5px
+rgba(0,
+0, 0, 
+0.2);
+
+}
+
+
+
+.image img{
+
+    width: 
+100%;
+
+    display: 
+block;
+
+}
+h1{
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0;
+    text-align: center;
+}
+h1::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    text-align: center;
+    background-color: crimson;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: animate 4s linear infinite;
+}
+/* h3{
+    height: 100%;
+    background-color: lightgrey;
+    line-height: 60px;
+    padding: 0 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+} */
+@keyframes animate {
+    0%{
+        width: 100px;
+    }
+    50%{
+        width: 200px;
+    }
+    100%{
+        width: 100px;
+    }
+}
+b {  
+    color: rgb(0, 0, 0);  
+    font-size:20px;  
+    }
+
+/* button{
+    padding-right: 35px;
+} */
+.span {
+    color: aqua;
+    font-family: emoji;
+}
+
+p{
+    font-size: 16px;
+}
+
+h2{
+    color: white;
+}
+.white-color{
+    color: white;
+}

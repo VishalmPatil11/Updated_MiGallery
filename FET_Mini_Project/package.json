@@ -1,0 +1,15 @@
+{
+  "name": "FET_Mini_Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch ../FET_Mini_Project/db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
